@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         int account = 300;
-        int accountCharge = 100;
+        int accountCharge = 1100;
         int gift;
         int newAccount;
-        if (accountCharge > 100) {
+        if (accountCharge > 1000) {
             gift = accountCharge / 100;
             newAccount = account + accountCharge + gift;
         } else {
